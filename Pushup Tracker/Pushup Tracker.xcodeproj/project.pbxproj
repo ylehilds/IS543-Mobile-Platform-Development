@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E25539852AB884D400E2647E /* Pushup_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25539842AB884D400E2647E /* Pushup_TrackerApp.swift */; };
+		E25539872AB884D400E2647E /* PushupTrackeriew.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25539862AB884D400E2647E /* PushupTrackeriew.swift */; };
+		E25539892AB884D600E2647E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25539882AB884D600E2647E /* Assets.xcassets */; };
+		E255398C2AB884D600E2647E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E255398B2AB884D600E2647E /* Preview Assets.xcassets */; };
+		E25539962AB884D600E2647E /* Pushup_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25539952AB884D600E2647E /* Pushup_TrackerTests.swift */; };
+		E25539A02AB884D600E2647E /* Pushup_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E255399F2AB884D600E2647E /* Pushup_TrackerUITests.swift */; };
+		E25539A22AB884D600E2647E /* Pushup_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25539A12AB884D600E2647E /* Pushup_TrackerUITestsLaunchTests.swift */; };
+		E25539B32AB88DBB00E2647E /* PushupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25539B22AB88DBB00E2647E /* PushupModel.swift */; };
+		E25539B52AB88E9A00E2647E /* PushupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25539B42AB88E9A00E2647E /* PushupViewModel.swift */; };
+		E27EB1892AC1029400CF62CF /* MediumDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27EB1882AC1029400CF62CF /* MediumDateFormatter.swift */; };
+		E27EB18B2AC1136800CF62CF /* WorkoutReport+DateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27EB18A2AC1136800CF62CF /* WorkoutReport+DateString.swift */; };
+		E2B72CF72ABC0988009755C9 /* Dated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B72CF62ABC0988009755C9 /* Dated.swift */; };
+		E2B72CF92ABC099D009755C9 /* Array+Dated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B72CF82ABC099D009755C9 /* Array+Dated.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E25539922AB884D600E2647E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25539792AB884D300E2647E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25539802AB884D400E2647E;
+			remoteInfo = "Pushup Tracker";
+		};
+		E255399C2AB884D600E2647E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25539792AB884D300E2647E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25539802AB884D400E2647E;
+			remoteInfo = "Pushup Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E25539812AB884D400E2647E /* Pushup Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pushup Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25539842AB884D400E2647E /* Pushup_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushup_TrackerApp.swift; sourceTree = "<group>"; };
+		E25539862AB884D400E2647E /* PushupTrackeriew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupTrackeriew.swift; sourceTree = "<group>"; };
+		E25539882AB884D600E2647E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E255398B2AB884D600E2647E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E25539912AB884D600E2647E /* Pushup TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pushup TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25539952AB884D600E2647E /* Pushup_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushup_TrackerTests.swift; sourceTree = "<group>"; };
+		E255399B2AB884D600E2647E /* Pushup TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pushup TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E255399F2AB884D600E2647E /* Pushup_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushup_TrackerUITests.swift; sourceTree = "<group>"; };
+		E25539A12AB884D600E2647E /* Pushup_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushup_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E25539B22AB88DBB00E2647E /* PushupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupModel.swift; sourceTree = "<group>"; };
+		E25539B42AB88E9A00E2647E /* PushupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupViewModel.swift; sourceTree = "<group>"; };
+		E27EB1882AC1029400CF62CF /* MediumDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumDateFormatter.swift; sourceTree = "<group>"; };
+		E27EB18A2AC1136800CF62CF /* WorkoutReport+DateString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutReport+DateString.swift"; sourceTree = "<group>"; };
+		E2B72CF62ABC0988009755C9 /* Dated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dated.swift; sourceTree = "<group>"; };
+		E2B72CF82ABC099D009755C9 /* Array+Dated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Dated.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E255397E2AB884D400E2647E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E255398E2AB884D600E2647E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25539982AB884D600E2647E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25539782AB884D300E2647E = {
+			isa = PBXGroup;
+			children = (
+				E25539832AB884D400E2647E /* Pushup Tracker */,
+				E25539942AB884D600E2647E /* Pushup TrackerTests */,
+				E255399E2AB884D600E2647E /* Pushup TrackerUITests */,
+				E25539822AB884D400E2647E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E25539822AB884D400E2647E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25539812AB884D400E2647E /* Pushup Tracker.app */,
+				E25539912AB884D600E2647E /* Pushup TrackerTests.xctest */,
+				E255399B2AB884D600E2647E /* Pushup TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E25539832AB884D400E2647E /* Pushup Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				E25539B02AB88D1400E2647E /* Model */,
+				E25539AF2AB88CE700E2647E /* View */,
+				E25539B12AB88D4500E2647E /* ViewModel */,
+				E2B72CF52ABC096B009755C9 /* Utility */,
+				E255398A2AB884D600E2647E /* Preview Content */,
+			);
+			path = "Pushup Tracker";
+			sourceTree = "<group>";
+		};
+		E255398A2AB884D600E2647E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E255398B2AB884D600E2647E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E25539942AB884D600E2647E /* Pushup TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E25539952AB884D600E2647E /* Pushup_TrackerTests.swift */,
+			);
+			path = "Pushup TrackerTests";
+			sourceTree = "<group>";
+		};
+		E255399E2AB884D600E2647E /* Pushup TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E255399F2AB884D600E2647E /* Pushup_TrackerUITests.swift */,
+				E25539A12AB884D600E2647E /* Pushup_TrackerUITestsLaunchTests.swift */,
+			);
+			path = "Pushup TrackerUITests";
+			sourceTree = "<group>";
+		};
+		E25539AF2AB88CE700E2647E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E25539842AB884D400E2647E /* Pushup_TrackerApp.swift */,
+				E25539862AB884D400E2647E /* PushupTrackeriew.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E25539B02AB88D1400E2647E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E25539B22AB88DBB00E2647E /* PushupModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E25539B12AB88D4500E2647E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E25539882AB884D600E2647E /* Assets.xcassets */,
+				E25539B42AB88E9A00E2647E /* PushupViewModel.swift */,
+				E27EB18A2AC1136800CF62CF /* WorkoutReport+DateString.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		E2B72CF52ABC096B009755C9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E2B72CF82ABC099D009755C9 /* Array+Dated.swift */,
+				E2B72CF62ABC0988009755C9 /* Dated.swift */,
+				E27EB1882AC1029400CF62CF /* MediumDateFormatter.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E25539802AB884D400E2647E /* Pushup Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25539A52AB884D600E2647E /* Build configuration list for PBXNativeTarget "Pushup Tracker" */;
+			buildPhases = (
+				E255397D2AB884D400E2647E /* Sources */,
+				E255397E2AB884D400E2647E /* Frameworks */,
+				E255397F2AB884D400E2647E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pushup Tracker";
+			productName = "Pushup Tracker";
+			productReference = E25539812AB884D400E2647E /* Pushup Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E25539902AB884D600E2647E /* Pushup TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25539A82AB884D600E2647E /* Build configuration list for PBXNativeTarget "Pushup TrackerTests" */;
+			buildPhases = (
+				E255398D2AB884D600E2647E /* Sources */,
+				E255398E2AB884D600E2647E /* Frameworks */,
+				E255398F2AB884D600E2647E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25539932AB884D600E2647E /* PBXTargetDependency */,
+			);
+			name = "Pushup TrackerTests";
+			productName = "Pushup TrackerTests";
+			productReference = E25539912AB884D600E2647E /* Pushup TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E255399A2AB884D600E2647E /* Pushup TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25539AB2AB884D600E2647E /* Build configuration list for PBXNativeTarget "Pushup TrackerUITests" */;
+			buildPhases = (
+				E25539972AB884D600E2647E /* Sources */,
+				E25539982AB884D600E2647E /* Frameworks */,
+				E25539992AB884D600E2647E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E255399D2AB884D600E2647E /* PBXTargetDependency */,
+			);
+			name = "Pushup TrackerUITests";
+			productName = "Pushup TrackerUITests";
+			productReference = E255399B2AB884D600E2647E /* Pushup TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E25539792AB884D300E2647E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E25539802AB884D400E2647E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E25539902AB884D600E2647E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E25539802AB884D400E2647E;
+					};
+					E255399A2AB884D600E2647E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E25539802AB884D400E2647E;
+					};
+				};
+			};
+			buildConfigurationList = E255397C2AB884D300E2647E /* Build configuration list for PBXProject "Pushup Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E25539782AB884D300E2647E;
+			productRefGroup = E25539822AB884D400E2647E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E25539802AB884D400E2647E /* Pushup Tracker */,
+				E25539902AB884D600E2647E /* Pushup TrackerTests */,
+				E255399A2AB884D600E2647E /* Pushup TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E255397F2AB884D400E2647E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E255398C2AB884D600E2647E /* Preview Assets.xcassets in Resources */,
+				E25539892AB884D600E2647E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E255398F2AB884D600E2647E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25539992AB884D600E2647E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E255397D2AB884D400E2647E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27EB18B2AC1136800CF62CF /* WorkoutReport+DateString.swift in Sources */,
+				E25539B32AB88DBB00E2647E /* PushupModel.swift in Sources */,
+				E25539B52AB88E9A00E2647E /* PushupViewModel.swift in Sources */,
+				E2B72CF92ABC099D009755C9 /* Array+Dated.swift in Sources */,
+				E27EB1892AC1029400CF62CF /* MediumDateFormatter.swift in Sources */,
+				E2B72CF72ABC0988009755C9 /* Dated.swift in Sources */,
+				E25539872AB884D400E2647E /* PushupTrackeriew.swift in Sources */,
+				E25539852AB884D400E2647E /* Pushup_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E255398D2AB884D600E2647E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25539962AB884D600E2647E /* Pushup_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25539972AB884D600E2647E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25539A22AB884D600E2647E /* Pushup_TrackerUITestsLaunchTests.swift in Sources */,
+				E25539A02AB884D600E2647E /* Pushup_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E25539932AB884D600E2647E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25539802AB884D400E2647E /* Pushup Tracker */;
+			targetProxy = E25539922AB884D600E2647E /* PBXContainerItemProxy */;
+		};
+		E255399D2AB884D600E2647E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25539802AB884D400E2647E /* Pushup Tracker */;
+			targetProxy = E255399C2AB884D600E2647E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E25539A32AB884D600E2647E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E25539A42AB884D600E2647E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E25539A62AB884D600E2647E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pushup Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = K83T4H8C92;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lehi.Pushup-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E25539A72AB884D600E2647E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pushup Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = K83T4H8C92;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lehi.Pushup-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E25539A92AB884D600E2647E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K83T4H8C92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lehi.Pushup-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pushup Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pushup Tracker";
+			};
+			name = Debug;
+		};
+		E25539AA2AB884D600E2647E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K83T4H8C92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lehi.Pushup-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pushup Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pushup Tracker";
+			};
+			name = Release;
+		};
+		E25539AC2AB884D600E2647E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K83T4H8C92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lehi.Pushup-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pushup Tracker";
+			};
+			name = Debug;
+		};
+		E25539AD2AB884D600E2647E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K83T4H8C92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lehi.Pushup-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pushup Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E255397C2AB884D300E2647E /* Build configuration list for PBXProject "Pushup Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25539A32AB884D600E2647E /* Debug */,
+				E25539A42AB884D600E2647E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25539A52AB884D600E2647E /* Build configuration list for PBXNativeTarget "Pushup Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25539A62AB884D600E2647E /* Debug */,
+				E25539A72AB884D600E2647E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25539A82AB884D600E2647E /* Build configuration list for PBXNativeTarget "Pushup TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25539A92AB884D600E2647E /* Debug */,
+				E25539AA2AB884D600E2647E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25539AB2AB884D600E2647E /* Build configuration list for PBXNativeTarget "Pushup TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25539AC2AB884D600E2647E /* Debug */,
+				E25539AD2AB884D600E2647E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E25539792AB884D300E2647E /* Project object */;
+}

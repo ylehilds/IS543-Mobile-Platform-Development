@@ -1,0 +1,13 @@
+Day 25:
+
+Slides: Day 25 Property Wrappers.pdf  Download
+Also see the Apple page: https://developer.apple.com/documentation/swiftdata/adding-and-editing-persistent-data-in-your-app
+Other tips:
+TextField can be a multiline text editor if you specify axis: .vertical
+When you have an array in SwiftData, you will likely need to sort it explicitly
+Don't forget to test your app on the iPhone Max/Plus device type in landscape orientation
+Apple's HIG has some helpful principles on how to create forms for entering and editing data on a mobile device (e.g. here (https://developer.apple.com/design/human-interface-guidelines/entering-data) and here (https://developer.apple.com/design/human-interface-guidelines/selection-and-input), but also elsewhere in the HIG)
+
+
+
+
