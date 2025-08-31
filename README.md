@@ -28,3 +28,8 @@ TODO: App Store-style screenshots, simple data model diagram
 
 ---
 *Notes: Add screenshots to `/assets` or the repo root and reference them above.*
+
+## License & Author
+
+- **License:** MIT — see `LICENSE`
+- **Author:** Lehi Alcantara — https://www.lehi.dev — lehi@lehi.dev
